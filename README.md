@@ -2,6 +2,22 @@
 
 ## Developer Setup
 
+### Local development
+
+
+#### Frontend
+```
+cd app/frontend
+npm install
+npm run dev
+```
+
+#### Backend
+```
+cd app/backend
+go run main.go
+```
+
 ### Docker build
 
 ```
