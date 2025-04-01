@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  nginx:
+    build: .
+    ports:
+      - "8000:80"
+    volumes:
+      - ./static:/usr/share/nginx/html/static:ro
+    restart: unless-stopped 
